@@ -3,11 +3,11 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Buildlink Website",
+    title: "Smart Farms",
     description: "A beautiful Building website using React and Tailwind.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "#"],
-    demoUrl: "#",
+    demoUrl: "",
     githubUrl: "https://github.com/vinsmokelaw/new-start",
   },
   {
