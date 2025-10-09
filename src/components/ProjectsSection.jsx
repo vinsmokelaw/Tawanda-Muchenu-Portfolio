@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Berries Send Money",
     description: "a simple application that allows users to send & receive money",
-    image: "#",
+    image: "projects/credit2.jpg",
     tags: ["React", "TailwindCSS",],
     demoUrl: "https://sendmoneyberries.vercel.app/",
     githubUrl: "https://github.com/vinsmokelaw/sendmoney",
@@ -15,7 +15,7 @@ const projects = [
     title: "Berries Credit Score 2.0",
     description:
       "a simple application that allows users to check their credit scores  instantly",
-    image: "#",
+    image: "projects/credit1.jpg",
     tags: ["React.js", "Tailwind", "Supabase"],
     demoUrl: "https://credit-score-2-0.vercel.app/",
     githubUrl: "https://github.com/vinsmokelaw/CREDIT-SCORE-2.0",
