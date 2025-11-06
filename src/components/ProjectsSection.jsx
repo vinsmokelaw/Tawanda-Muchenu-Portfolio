@@ -22,11 +22,11 @@ const projects = [
   },
   // {
   //   id: 3,
-  //   title: "Smart Farms",
+  //   title: "Love Islanda",
   //   description:
-  //     "an IoT-based smart farming solution that optimizes agricultural practices",
-  //   image: "#",
-  //   tags: ["Next.js", "Tailwind", "IoT"],
+  //     "A dating website designed to connect people ",
+  //   image: "",
+  //   tags: ["Next.js", "Tailwind", "Supabase", "GetStream"],
   //   demoUrl: "https://smart-farms1.vercel.app/",
   //   githubUrl: "",
   // },
