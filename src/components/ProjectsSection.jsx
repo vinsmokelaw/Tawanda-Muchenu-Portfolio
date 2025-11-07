@@ -20,16 +20,16 @@ const projects = [
     demoUrl: "https://credit-score-2-0.vercel.app/",
     githubUrl: "https://github.com/vinsmokelaw/CREDIT-SCORE-2.0",
   },
-  // {
-  //   id: 3,
-  //   title: "Love Islanda",
-  //   description:
-  //     "A dating website designed to connect people ",
-  //   image: "",
-  //   tags: ["Next.js", "Tailwind", "Supabase", "GetStream"],
-  //   demoUrl: "https://smart-farms1.vercel.app/",
-  //   githubUrl: "",
-  // },
+  {
+    id: 3,
+    title: "Love Island",
+    description:
+      "A dating website designed to connect people ",
+    image: "projects/redit1.jpg",
+    tags: ["Next.js", "Tailwind", "Supabase", "GetStream"],
+    demoUrl: "https://love-island-two.vercel.app/",
+    githubUrl: "https://github.com/vinsmokelaw/love-island-v2",
+  },
 ];
 
 export const ProjectsSection = () => {

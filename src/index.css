@@ -40,27 +40,35 @@
 
 @layer base {
   :root {
-    --background: 140 30% 98%; /* soft white with slight green tint */
-    --foreground: 160 25% 20%; /* dark green text */
+    --background: 140 30% 98%;
+    --foreground: 160 25% 20%;
 
     --card: 0 0% 100%;
 
-    --primary: 145 60% 45%; /* medium jungle green */
-    --primary-foreground: 0 0% 100%; /* white text on green */
+    --primary: 145 60% 45%;
+    --primary-foreground: 0 0% 100%;
 
-    --border: 150 20% 85%; /* pale green border */
+    --border: 150 20% 85%;
+
+    /* cosmic colors */
+    --star-color: rgba(34, 197, 94, 0.8); /* green for light mode */
+    --meteor-color: rgba(34, 197, 94, 0.8); /* green for light mode */
   }
 
   .dark {
-    --background: 160 25% 5%; /* nearly black with green tone */
-    --foreground: 140 20% 90%; /* soft light green text */
+    --background: 160 25% 5%;
+    --foreground: 140 20% 90%;
 
     --card: 160 20% 10%;
 
-    --primary: 145 60% 40%; /* dark emerald green */
-    --primary-foreground: 0 0% 100%; /* white text */
+    --primary: 145 60% 40%;
+    --primary-foreground: 0 0% 100%;
 
-    --border: 150 15% 20%; /* muted dark green border */
+    --border: 150 15% 20%;
+
+    /* cosmic colors */
+    --star-color: rgba(255, 255, 255, 0.4); /* white for dark mode */
+    --meteor-color: rgba(255, 255, 255, 0.8); /* white for dark mode */
   }
 
   * { @apply border-border; }
@@ -85,7 +93,7 @@
 
 @utility text-glow {
   @apply relative;
-  text-shadow: 0 0 10px rgba(74, 222, 128, 0.5); /* glow green */
+  text-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
 }
 
 @utility card-hover {
@@ -107,12 +115,14 @@
 
 @utility star {
   @apply absolute rounded-full bg-white;
-  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
-}
+  background-color: var(--star-color);
+  box-shadow: 0 0 10px 2px var(--star-color);
+} 
 
 @utility meteor {
-  @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
-  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
+  @apply absolute rounded-full;
+  background-color: var(--meteor-color);
+  box-shadow: 0 0 10px 5px var(--meteor-color);
 }
 
 #root {
