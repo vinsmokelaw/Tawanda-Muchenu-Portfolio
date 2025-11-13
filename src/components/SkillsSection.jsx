@@ -6,7 +6,7 @@ const skills = [
   { name: "HTML/CSS", category: "frontend" },
   { name: "JavaScript",  category: "frontend" },
   { name: "React",  category: "frontend" },
-  // { name: "TypeScript", level: 85, category: "frontend" },
+  { name: "TypeScript", category: "frontend" },
   { name: "Tailwind CSS",  category: "frontend" },
   { name: "Next.js",  category: "frontend" },
 
@@ -14,13 +14,12 @@ const skills = [
   { name: "Node.js",  category: "backend" },
   { name: "Python",  category: "backend" },
   // { name: "Express", level: 75, category: "backend" },
-  // { name: "MongoDB", level: 70, category: "backend" },
-  // { name: "PostgreSQL", level: 65, category: "backend" },
+  { name: "MongoDB", category: "backend" },
+  { name: "PostgreSQL", category: "backend" },
   // { name: "GraphQL", level: 60, category: "backend" },
 
   // Tools
-  // { name: "Git/GitHub", level: 90, category: "tools" },
-
+  { name: "Git/GitHub", category: "tools" },
   { name: "Figma",  category: "tools" },
   { name: "VS Code",  category: "tools" },
   { name: "Scratch",  category: "tools" },
