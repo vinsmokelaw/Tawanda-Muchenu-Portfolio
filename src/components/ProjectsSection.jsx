@@ -15,7 +15,7 @@ const projects = [
     title: "Smart Farms",
     description:
       "Farming Website that inspired b the technology",
-    image: "projects/credit1.jpg",
+    image: "projects/smarttfarms.jpeg",
     tags: ["React.js", "Tailwind", "Supabase"],
     demoUrl: "https://smart-farms1.vercel.app/",
     githubUrl: "https://github.com/vinsmokelaw/smart-farms1.git",
@@ -25,7 +25,7 @@ const projects = [
     title: "Agrimo",
     description:
       "Farming website",
-    image: "projects/redit1.jpg",
+    image: "projects/agrimo.jpeg",
     tags: ["Next.js", "Tailwind", "Supabase", "GetStream"],
     demoUrl: "https://farmers3.vercel.app/",
     githubUrl: "https://github.com/vinsmokelaw/farmers3.git",
