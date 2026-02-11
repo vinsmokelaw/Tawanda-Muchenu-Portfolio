@@ -12,23 +12,23 @@ const projects = [
   },
   {
     id: 2,
-    title: "Berries Credit Score 2.0",
+    title: "Smart Farms",
     description:
-      "a simple application that allows users to check their credit scores  instantly",
+      "Farming Website that inspired b the technology",
     image: "projects/credit1.jpg",
     tags: ["React.js", "Tailwind", "Supabase"],
-    demoUrl: "https://credit-score-2-0.vercel.app/",
-    githubUrl: "https://github.com/vinsmokelaw/CREDIT-SCORE-2.0",
+    demoUrl: "https://smart-farms1.vercel.app/",
+    githubUrl: "https://github.com/vinsmokelaw/smart-farms1.git",
   },
   {
     id: 3,
-    title: "Love Island",
+    title: "Agrimo",
     description:
-      "A dating website designed to connect people ",
+      "Farming website",
     image: "projects/redit1.jpg",
     tags: ["Next.js", "Tailwind", "Supabase", "GetStream"],
-    demoUrl: "https://love-island-two.vercel.app/",
-    githubUrl: "https://github.com/vinsmokelaw/love-island-v2",
+    demoUrl: "https://farmers3.vercel.app/",
+    githubUrl: "https://github.com/vinsmokelaw/farmers3.git",
   },
 ];
 
